@@ -60,7 +60,7 @@ function loginUser(){
                     info => {
                         localStorage.setItem('token', info.jwt)
 
-                        window.location.href = "../pages/tarefas.html"
+                        window.location.href = 'tarefas.html'
                     }
                 )
 
